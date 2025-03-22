@@ -1,0 +1,203 @@
+#background {
+    height: 100vh;
+    overflow: hidden; /* Prevents scrollbars */
+    position: relative; /* Needed for absolute positioning */
+}
+
+/* Global font size increase */
+html p{
+    font-size: 20px;   /* Base size for all elements */
+    line-height: 1.7;   /* Improves readability */
+}
+html h2{
+    font-size: 2.5rem;  /* Larger heading size */
+    font-family: "Sulphur Point", sans-serif; /* Modern font */
+
+}
+
+
+/* Container with centered image */
+#container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Image styling */
+#container img {
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover; /* Crop excess width */
+}
+
+/* Overlay text styling */
+#overlay {
+    position: absolute; 
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centering the text */
+    color: #DDC053; /* Creamy yellow for readability */
+    text-align: center;
+    z-index: 2; /* Ensure it appears above the image */
+}
+
+/* Heading styling */
+#overlay h1 {
+    font-family: "Dancing Script", cursive; /* Fancy font for heading */
+    font-size: 4.3rem; /* Larger size for impact */
+    margin: 0;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.7); /* Glow effect */
+    margin-bottom: 1rem;;
+}
+
+/* Paragraph styling */
+#overlay p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.2rem;
+    max-width: 800px; /* Limit paragraph width for readability */
+    line-height: 1.6;
+    background: rgba(0, 0, 0, 0.4); /* Semi-transparent background for readability */
+    padding: 20px;
+    border-radius: 10px;
+    color: #FFD700; /* Themed yellow color */
+    text-shadow: 0 0 12px rgba(100, 149, 237, 0.5),   /* Cornflower blue glow */
+                 0 0 18px rgba(65, 105, 225, 0.3),    /* Royal blue layer */
+                 0 0 25px rgba(30, 144, 255, 0.1);    /* Dodger blue layer */
+
+}
+
+/* 🌿 Footer */
+#footer {
+    background-color: #0D2A49; 
+    padding: 40px 0;
+}
+
+#footer p, #footer .nav-link {
+    color: #FFD700 !important; /* Gold accents */
+    font-size: 1rem;
+    letter-spacing: 0.3px;
+}
+
+/* 🌿 About Section */
+#about {
+    background: #FFF; 
+    color: #333; 
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.profile-image {
+    max-width: 200px; 
+    border-radius: 50%;
+    box-shadow: 0 4px 12px rgba(22, 74, 87, 0.2); 
+
+}
+
+
+.about-text {
+    font-family: 'Lora', serif;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    max-width: 750px;
+    margin: 0 auto;
+    color: #555; 
+    background: rgb(248, 249, 250); 
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+}
+
+
+
+/* 🎯 Skills Section */
+#skills {
+    background: #F5F5F5; 
+    color: #333; 
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.skill-item {
+    background: #FFFFFF; 
+    border-radius: 12px;
+    padding: 35px 30px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08); 
+    margin-bottom: 30px;
+
+}
+
+
+.skill-item h3 {
+    font-family: "Raleway", sans-serif;
+    font-size: 1.7rem;
+    color: #444; 
+    margin-bottom: 15px;
+}
+
+.skill-image img {
+    width: 50%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+
+
+.skill-item p {
+    font-family: 'Lora', serif;
+    font-size: 1rem;
+    line-height: 1.7;
+    color: #666; 
+}
+
+/* 🌟 Connect Section */
+#connect {
+    background: #FFF; 
+    color: #333;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+#connect h2{
+    color: #444; 
+    font-family: "Sulphur Point", sans-serif;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#connect h3 {
+    color: #444; 
+    font-family: "Sulphur Point", sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.connect-text {
+    font-family: 'Lora', serif;
+    font-size: 1rem;
+    max-width: 750px;
+    margin: 0 auto;
+    color: #555;
+    line-height: 1.8;
+    background: #F5F5F5;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+    transition: box-shadow 0.3s;
+}
+
+
+
+/* 📩 Contact Button */
+.btn-primary {
+    background: #444; 
+    color: #FFF; 
+    font-size: 1rem;
+    padding: 14px 32px;
+    border: none;
+    border-radius: 25px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
