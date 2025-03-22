@@ -76,7 +76,7 @@ html h2{
 
 #footer p, #footer .nav-link {
     color: #FFD700 !important; /* Gold accents */
-    font-size: 1rem;
+    font-size: 1.1rem;
     letter-spacing: 0.3px;
 }
 
@@ -192,9 +192,9 @@ html h2{
 
 /* 📩 Contact Button */
 .btn-primary {
-    background: #444; 
-    color: #FFF; 
-    font-size: 1rem;
+    background: #0D2A49; 
+    color: #f2d672; 
+    font-size: 1.1rem;
     padding: 14px 32px;
     border: none;
     border-radius: 25px;
